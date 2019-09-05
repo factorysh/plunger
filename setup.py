@@ -22,6 +22,7 @@ setup(
     description="A tool to inspect and clean gitlab's docker registry.",
     long_description=long_description,
     keywords="docker gitlab registry",
+    url="https://github.com/factorysh/plunger",
     licence="GPLv3",
     classifiers=[
         'Intended Audience :: Developers',

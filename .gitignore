@@ -1,0 +1,10 @@
+include/
+lib/
+lib64/
+share/
+bin/
+*.key
+*.pyc
+*.egg-info
+pip-selfcheck.json
+pyvenv.cfg

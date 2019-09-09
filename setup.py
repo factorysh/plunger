@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-version = '1.0.1.dev0'
+version = '1.0.1'
 
 
 def read(*parts):

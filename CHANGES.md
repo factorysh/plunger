@@ -1,7 +1,7 @@
 1.0.1 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Fix total rows
 
 
 1.0.0 (2019-09-05)

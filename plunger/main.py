@@ -278,6 +278,7 @@ def main():
                     table.add_row(row)
 
             total += sum(total_layers.values())
+            table.add_row(['Total', '', '', total / 1024 / 1024])
         else:
             # show sizes grouped by path
 
@@ -304,8 +305,8 @@ def main():
                 total += size
                 table.add_row([name, size / 1024 / 1024])
 
-        # draw table
-        table.add_row(['Total', total / 1024 / 1024])
+            # draw table
+            table.add_row(['Total', total / 1024 / 1024])
         print(table.draw())
 
         # done listing

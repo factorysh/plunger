@@ -22,7 +22,8 @@ def with_sentry(func):
             # set some sentry meta
             package = __package__.replace('_', '-')
             version = get_version()
-            scope.set_tag('%s_version' % package, version)
+            scope.set_tag('program', package)
+            scope.set_tag('version', version)
             scope.set_extra('%s.version' % package, version)
 
     @functools.wraps(func)

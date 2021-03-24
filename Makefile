@@ -21,7 +21,7 @@ docker-freeze:
 		-v $(PWD):/opt/plunger \
 		-v $(HOME)/.cache:/.cache \
 		-e PIP_CACHE_DIR=/.cache \
-		bearstech/python-dev:3
+		bearstech/python-dev:3.7
 		make freeze
 
 release:
